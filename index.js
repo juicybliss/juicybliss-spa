@@ -1,8 +1,17 @@
 const express = require('express');
-const app = express();
 const path = require('path');
-const redditData = require('./data.json');
+const mongoose = require('mongoose');
 const myData = require('./myData.json');
+
+mongoose.connect('mongodb://localhost:27017/juicybliss');
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => {
+  console.log('Database connected');
+});
+
+const app = express();
 
 app.use(express.static(path.join(__dirname, '/public')));
 
@@ -20,16 +29,16 @@ app.get('/s/:pagename', (req, res) => {
   }
 });
 
-app.get('/r/:subreddit', (req, res) => {
-  const { subreddit } = req.params;
-  const data = redditData[subreddit];
-  if (data) {
-    res.render('subreddit', { ...data });
-  } else {
-    res.render('notfound', { subreddit });
-  }
-});
+// app.get('/r/:subreddit', (req, res) => {
+//   const { subreddit } = req.params;
+//   const data = redditData[subreddit];
+//   if (data) {
+//     res.render('subreddit', { ...data });
+//   } else {
+//     res.render('notfound', { subreddit });
+//   }
+// });
 
 app.listen(3001, () => {
-  console.log('Listening on port 30001');
+  console.log('Listening on port 3001');
 });
