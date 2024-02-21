@@ -10,13 +10,13 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 app.set('css', path.join(__dirname, '/css'));
 
-app.get('/:home', (req, res) => {
-  const { home } = req.params;
-  const data = myData[home];
+app.get('/s/:pagename', (req, res) => {
+  const { pagename } = req.params;
+  const data = myData[pagename];
   if (data) {
-    res.render('home', { ...data });
+    res.render(`${pagename}`, { ...data });
   } else {
-    res.render('notfound', { home });
+    res.render('notfound', { pagename });
   }
 });
 
