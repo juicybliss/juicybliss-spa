@@ -14,6 +14,47 @@
                 "img": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             }
         ]
+    },
+
+    "juiceit": {
+        "name": "Juice Recipes",
+        "description": "The fat and the skinny on Juicing",
+        "topics": [
+            {   
+                "id": "letsjuice",
+                "title": "Let's Juice",
+                "author": "Ali Kali",
+                "text1": "Icing caramels bear claw tiramisu I love fruitcake apple pie marzipan. Tiramisu chocolate marzipan gummi bears marzipan. Carrot cake sweet carrot cake I love I love caramels I love. Muffin marzipan marshmallow I love sesame snaps cotton candy I love marshmallow gummies. Biscuit sweet I love ice cream tiramisu bonbon. I love dessert pie gingerbread carrot cake. Gummies pastry sweet roll cookie cake sweet roll I love icing jelly beans. Gingerbread gingerbread shortbread croissant brownie pie pie oat cake. Sweet roll powder I love tootsie roll bonbon croissant cookie.",
+                "text2":"I love marzipan muffin gummies marzipan. Cupcake pastry chocolate tootsie roll soufflé. Caramels toffee danish candy canes topping chocolate cake tootsie roll tiramisu. Oat cake cake cupcake shortbread muffin brownie marshmallow. Jelly beans I love I love tootsie roll pudding I love. Powder candy canes lollipop cotton candy macaroon cake I love tootsie roll chocolate cake. Tart wafer powder I love icing sweet roll I love. Dessert croissant gingerbread chocolate dessert chocolate cake I love cheesecake bonbon. Cake chocolate cake donut caramels toffee shortbread.",
+                "text3":"Brownie carrot cake liquorice tootsie roll powder. Chocolate cake lollipop I love tootsie roll apple pie carrot cake oat cake tootsie roll danish. Croissant caramels jelly candy soufflé. Muffin bonbon I love icing danish topping pie jelly beans pie. Sugar plum icing wafer macaroon bear claw pudding gummies soufflé. Muffin cake I love sesame snaps muffin.",
+                "text4":"Chocolate cake biscuit lemon drops I love jelly beans liquorice fruitcake caramels. Muffin I love powder marzipan icing. Cookie I love liquorice I love jelly sweet roll cheesecake I love. Cake wafer I love cake tootsie roll candy marshmallow cake marzipan. Topping gingerbread tootsie roll shortbread tiramisu macaroon cookie I love. Apple pie jelly-o I love tart marzipan caramels apple pie macaroon. Cookie carrot cake pastry danish muffin bonbon danish sweet icing.",
+                "text5":"Pudding danish jujubes dessert sesame snaps brownie I love cupcake. Tart cake jujubes I love wafer cake. Pastry biscuit gummies bear claw lemon drops icing cheesecake chocolate bar bear claw. Gummi bears sesame snaps cupcake sweet lemon drops. Bonbon tootsie roll shortbread lollipop liquorice dessert jujubes chocolate bar. Croissant jelly apple pie candy powder jujubes.",  
+                 "img": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "title": "Why Juice?",
+                "author": "grow your ",
+                "img": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+        ]
+    },
+
+    "about": {
+        "name": "about",
+        "heading": "About Juicy Bliss",
+        "description": "The fat and the skinny on Juicy Bliss",
+        "topics": [
+            {
+                "title": "About Juicy Bliss",
+                "author": "Ali Kali",
+                "img": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "title": "Beauty",
+                "author": "grow your ",
+                "img": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+        ]
     }
 }
 
