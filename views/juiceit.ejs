@@ -1,0 +1,19 @@
+<%- include('partials/head') %>
+
+
+    <%- include('partials/navbar') %>
+    <h1 align="center">Juice Recipes</h1>
+        <br>
+        <h5 align ="center">Get juiced!</h5>
+        <section class="gallery">
+            <% for(let topic of topics) { %>                        
+                <a href="<%= topic.id %>"  >
+                    <div class="card">    
+                        <img src="<%= topic.img %>" alt="<% topic.title %>"> 
+                        <p><%= topic.title %> - <b><%=topic.author %></b></p>
+                    </div>  
+                </a>
+            <% } %>   
+        </section>
+    
+<%- include('partials/footer') %> 
